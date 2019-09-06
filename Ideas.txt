@@ -1,20 +1,18 @@
 Aerodynamics: Computational Fluid Dynamics
 				Sovling PDE (Euler or Navier-Stokes) using parallel computing
 				Grid design (mesh)
-							Problems: ??
+							Problems needs to be solved: 1. mesh design problems
+														 2. performance problems (analysis is time comsuming)
 
 
 Structures: Finite Element Analysis
-							Problems: ???
+							Problems needs to be solved: ???
 
 
-Graphic Simulation
-
-
-Parallel computing
 
 Aeroelastic Flutter can use FEA and CFD?
 			wing structure using FEA
 			Aerodynamics forces using CFD
 
 			FSI (Fluid Strucural Interation)
+				Problems needs to be solved: ??
