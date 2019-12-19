@@ -29,7 +29,7 @@ Up to now, the CUDA version of NVECTOR was integrated successfully with the targ
 The testing (testphysics_cvode_gas_stand_alone.cpp) that was used is a stand alone test. This means that the programme only tests the target component. It uses a single cell (single integration equation) with a small number of chemistry species and first initialize/reinitialize, then integrate in each step for 100 steps. The purpose of this preliminary test is to validate the accuracy and the consistency of the modification. The results indicated that the modified component gave the exact same results as the original component gave. However, in terms of the performance, the cpu version performs better than the gpu version. The time spent on each step for each version was recorded and shown as follows:
 
 Single step time:
-CPU: 4.02e-06   GPU:1.54e-04
+CPU: 4.02e-06   GPU:1.53e-04
 
 This result was expected due to the fact that the optimization step has not been performed. Furthermore, the calculation in the current test is too light to see the speedup using GPUs. 
 
